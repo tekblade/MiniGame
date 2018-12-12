@@ -74,7 +74,7 @@ private void start1() {
 }
 public void start2() {
 	Thread worker2 = new Thread() {
-		public void run() {
+		public void run() { //I recommend to use SwingUtilities
 			int counter=0;
 			Random r = new Random();
 			int x=r.nextInt(780);//
@@ -85,7 +85,7 @@ public void start2() {
 				array[i]=new JProgressBar(0,100);
 				helpArray[i]=r.nextInt(790)+3;
 				array[i].setBounds(helpArray[i],y,10,10);
-				panel.add(array[i]); //tu mo¿e byæ b³¹d
+				panel.add(array[i]); //tu moÂ¿e byÃ¦ bÂ³Â¹d
 			}
 			int k=0;
 			for(int i=0;i<5;i++) {

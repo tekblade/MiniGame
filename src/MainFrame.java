@@ -85,7 +85,7 @@ public void start2() {
 				array[i]=new JProgressBar(0,100);
 				helpArray[i]=r.nextInt(790)+3;
 				array[i].setBounds(helpArray[i],y,10,10);
-				panel.add(array[i]); //tu mo¿e byæ b³¹d
+				panel.add(array[i]); //possible error
 			}
 			int k=0;
 			for(int i=0;i<5;i++) {
